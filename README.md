@@ -13,7 +13,7 @@ Funcionalidades:
 ### Script disponível
 No diretório do projeto, você pode executar:
 
-### `yarn start`
+### `yarn dev`
 
 Executa o aplicativo em modo de desenvolvimento.\
 Abra [http://localhost:8080](http://localhost:8080) para vê-lo no navegador.
