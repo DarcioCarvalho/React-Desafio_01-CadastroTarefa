@@ -33,6 +33,15 @@ export function TaskList() {
   function handleToggleTaskCompletion(id: number) {
     // Altere entre `true` ou `false` o campo `isComplete` de uma task com dado ID
 
+    /*   SOLUÇÃO DA ROCKETSEAT    
+        const newTasks = tasks.map(task => task.id === id ? {
+          ...task,
+          isComplete: !task.isComplete
+        } : task );
+    
+        setTasks(newTasks);
+    */
+
     const auxTasks = [...tasks];
 
     const indice = auxTasks.findIndex((task) => {
@@ -47,6 +56,12 @@ export function TaskList() {
 
   function handleRemoveTask(id: number) {
     // Remova uma task da listagem pelo ID
+
+    /*   SOLUÇÃO DA ROCKETSEAT    
+        const FilteredTasks = tasks.filter(task => task.id === id);
+    
+        setTasks(FilteredTasks);
+    */
 
     const auxTask = [...tasks];
 
