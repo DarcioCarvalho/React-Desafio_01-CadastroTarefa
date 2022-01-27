@@ -16,4 +16,4 @@ No diretório do projeto, você pode executar:
 ### `yarn start`
 
 Executa o aplicativo em modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para vê-lo no navegador.
+Abra [http://localhost:8080](http://localhost:8080) para vê-lo no navegador.
